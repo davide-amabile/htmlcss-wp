@@ -61,10 +61,12 @@ h1 {
 .menu a {
   text-decoration: none;
   line-height: 50px;
+  color: white;
+  padding: 1px;
 }
 
-.menu:hover a {
-  background-color: blue;
+.menu a:hover  {
+  color: blue;
 }
 
 /* corpo centrale */
