@@ -73,7 +73,11 @@ h1 {
 /* /header */
 
 /* corpo centrale */
-
+.center div {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
 
 main::after {
   content: "";
@@ -83,20 +87,17 @@ main::after {
 /* box left */
 .col-left {
   width: 25%;
-  background-color: #CC87DA;
   float: left;
 }
 /* box middle */
 .col-center {
   width: 46%;
   margin: 0 2%;
-  background-color: #730671;
   float: left;
 }
 /* box right */
 .col-right {
   width: 25%;
-  background-color: #CC87DA;
   float: left;
 }
 
