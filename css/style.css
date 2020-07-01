@@ -19,7 +19,7 @@ body {
   position: relative;
   text-transform: uppercase;
 }
-
+/* logo */
 
 .logo {
   color: white;
@@ -41,7 +41,31 @@ h1 {
 .logo h2 {
   font-size: 15px;
 }
+/* /logo */
+/* menu link */
+.link {
+  height: 50px;
+  background-color: grey;
+  text-align: center;
+}
 
+.menu {
+  list-style: none;
+  text-decoration: none;
+}
+
+.link li {
+  display:inline-block;
+}
+
+.menu a {
+  text-decoration: none;
+  line-height: 50px;
+}
+
+.menu:hover a {
+  background-color: blue;
+}
 
 /* corpo centrale */
 
