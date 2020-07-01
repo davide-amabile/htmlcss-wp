@@ -5,19 +5,30 @@
 }
 .container {
   margin: auto;
-  width: 700px
+  width: 700px;
 }
 /* header */
 .titolo {
-  height: 125px;
-  /* width: 700px; */
-  background-color: #FEFE3A;
+  background-image: url("../img/sfodo-logo.jpg")
+  color: white;
+  text-align: center;
+  height: 300px;
   margin-bottom:  5px;
+  position: relative;
+  text-transform: uppercase;
 }
-/* corpo centrale */
-.center {
 
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+
+/* corpo centrale */
+
 
 main::after {
   content: "";
