@@ -62,12 +62,13 @@ h1 {
   text-decoration: none;
   line-height: 50px;
   color: white;
-  padding: 1px;
+  padding: 5px;
 }
 
 .menu a:hover  {
   color: blue;
 }
+/* /manu link */
 
 /* corpo centrale */
 
